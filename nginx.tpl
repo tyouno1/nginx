@@ -5,6 +5,6 @@ server {{
   location / {{
     root  {home};
     index index.html index htm;
-    proxy_pass http:127:0.0.1:{proxy_port};
+    proxy_pass http://127.0.0.1:{proxy_port};
   }}
 }}

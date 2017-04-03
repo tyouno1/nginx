@@ -1,12 +1,12 @@
 #!/usre/bin/env python
 #encoding: utf-8
 
-port = 8888
+port = 9020
 server = 'default'
 servername = 'cmdb'
 access_log = '/var/log/cmdb.log'
-home = '/home/kk/www'
-proxy_port = 9999
+home = '/root/github/cmdb'
+proxy_port = 9010
 
 rh = open('nginx.tpl')
 nginx_conf = rh.read().format(port=port, server=server, 
